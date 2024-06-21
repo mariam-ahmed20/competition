@@ -1,0 +1,1098 @@
+* {
+    top: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+
+
+
+/*start header*/
+header{
+    background-color: rgb(38,38,38);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+header img {
+    width: 150px;
+    margin: 10px 0px;
+}
+
+header button {
+    background-color: rgb(130,180,62);
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    margin: 5px 0px;
+    border-radius: 6px;
+}
+/*end header*/
+
+
+
+/*start top nav bar*/
+#top {
+    height: 120px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: rgb(20,21,20);
+}
+
+#top .left {
+    justify-self: start;
+    text-align: center;
+} 
+
+#top .left h1 {
+    font-size: 50px;
+    color: rgb(93,210,185);
+}
+
+#top .left h6 {
+    color: rgb(219,218,219);
+}
+
+#top .right {
+    justify-content: end;
+    margin-bottom: 25px;
+}
+
+#top a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 15px;
+    color: rgb(249,248,249);
+}
+
+#top a:hover {
+    color: rgb(93,210,185);
+}
+
+#top a .icon {
+    color: rgb(93,210,185);
+    font-size:20px ;
+}
+/*endd top  bar*/
+
+
+
+
+
+/*start 1st section*/
+.sec1 {
+    position: relative;
+    height: 700px;
+    background-image: linear-gradient(to right, black, black, rgb(27, 50, 45));
+
+}  
+
+.sec1 .img {
+    width: 100%;
+    height: 700px;
+}
+
+.sec1 .img img {
+    display: block;
+    width: 700px;
+    margin-bottom: 0px;
+    height: 700px;
+    object-fit: cover;
+    object-position: 40% 48%;
+    margin-left: 815px;
+}
+
+.sec1 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgb(27,50,45), transparent, transparent, transparent);
+    opacity:.81;
+    
+}
+
+.sec1 .div {
+    width: 650px;
+    margin: 100px 0px 0px 200px;
+    position: absolute;
+}
+
+.sec1 .div h1{
+    color: rgb(248,248,249);
+    font-size: 60px;
+}
+
+.sec1 .play {
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+}
+
+.sec1 .play .full {
+    color: rgba(93, 210, 185, 0.384);
+    font-size: 90px;
+    
+}
+
+.sec1 .play .media-play {
+    position: absolute;
+    font-size: 70px;
+    color: rgb(93, 210, 185);
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid rgb(52, 134, 116);
+    top: 5%;
+    left: 1%;
+    transform: translate(-50% -50%);
+
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.one h4 {
+    color: white;
+}
+
+.one h5 {
+    color: rgb(93,210,185);
+}
+
+.one hr {
+    width: 110px;
+    height: 1px;
+    background-color: rgb(58, 58, 58);
+}
+/* end 1st section*/
+
+
+
+/* start 2nd section*/
+.sec2{
+    background-color: rgb(0,1,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.sec2 .coulumn {
+    margin-top: 0px;
+    color: azure;
+}
+
+.sec2 .coulumn div{
+    height: 220px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.sec2 .coulumn .grey {
+    background-color: rgb(12,12,12);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sec2 .coulumn .colored {
+    background-image: linear-gradient(to top, rgb(20,49,43), rgb(0,1,1));
+    margin: 25px 10px;
+}
+
+.sec2 .coulumn img {
+    width: 80px;
+    height: 80px;
+}
+
+.sec2 .beside {
+    width: 470px;
+    margin: 30px;
+}
+
+.sec2 .beside button {
+    background-color: rgb(93,210,185);
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.sec2 h1 {
+    font-size: 60px;
+    color: bisque;
+}
+/* end 2nd section*/
+
+
+
+/* start 3rd section*/
+.sec3 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(12,12,12);
+    color: rgb(249,249,249);
+    position: relative;
+    height: 700px;
+    padding-top: 110px;
+}
+
+.sec3 h1{
+    color: rgb(249,249,249);
+    font-size: 54px;
+}
+
+.sec3 img {
+    height: 590px;
+}
+
+.sec3 ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 1, 0.186), transparent);
+    opacity: .03;
+}
+
+.sec3 .about-us {
+    max-width: 45%;
+}
+
+.sec3 .aside {
+    display: flex;
+    align-items: s;
+    margin-right: 40px;
+}
+
+.sec3 .aside img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+/* end 3rd section*/
+
+
+
+/* end 4th section*/
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 330px;
+    position: absolute;
+}
+
+.four div {
+    margin: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.four img {
+    margin: 30px 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.four div span {
+    font-size: 50px;
+}
+
+.four  div h5 {
+    font-size: 20px;
+}
+
+.sec4 .img {
+    width: 100%;
+    height: 330px;
+}
+
+.sec4 .img img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 330px;
+    object-fit: cover;
+    object-position: 40% 51%
+
+}
+
+.sec4 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(29,50,44), black);
+    opacity: .8;
+}
+
+.sec4 {
+    position: relative;
+    height:330px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end 4th section*/
+
+
+/* start 5th section*/
+.sec5 {
+    background-color: rgb(1,1,0);
+    color: beige;
+    padding: 100px 0px;
+} 
+
+.sec5 h1 {
+    font-size: 57px;
+}
+
+.sec5 h5 {
+    font-size: 15px;
+}
+
+.sec5 .sec5_beside {
+    display: flex;
+    justify-content: center;
+}
+
+.sec5 .sec5_beside img {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.sec5 div img {
+    width: 370px;
+    height: 362px;
+    object-fit: cover;
+    object-position: 50% 50%
+}
+
+.sec5 .sec5_down {
+    margin-left: 200px;
+}
+/* end 5th section*/
+
+
+
+/* start 6th section*/
+.sec6 {
+    position: relative;
+    height:230px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 230px;
+    position: absolute;
+}
+
+.five img {
+    margin: 0px 15px;
+    width: 200px;
+    height: 80px;
+    filter:grayscale(100%);
+}
+
+.five img:hover {
+    filter:grayscale(0%);
+}
+
+.sec6 .img {
+    width: 100%;
+    height: 230px;
+}
+
+.sec6 .img img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 230px;
+    object-fit: cover;
+    object-position: 40% 50%
+
+}
+
+.sec6 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgb(28,50,47), rgb(0, 0, 0));
+    opacity: .8;
+}
+/* end 6th section*/
+
+
+
+/* start 7th section*/
+.sec7 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12,13,13);
+    color: white;
+}
+
+.sec7 div {
+    height: 700px;
+    margin: 0px 10px;
+}
+
+.sec7 .left-div {
+    margin-bottom: 190px;
+    margin-top: 130px
+}
+
+.sec7 .left-div .parent {
+    position: relative;
+} 
+
+.sec7 .left-div .parent i {
+    position: absolute;
+    z-index: 1;
+    color: rgb(224,240,241);
+    font-size: 100px;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec7 .right-div i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: rgb(93,210,185);
+}
+
+.sec7 .right-div .parent {
+    position: relative;
+} 
+
+.sec7 .right-div .parent i {
+    position: absolute;
+    z-index: 1;
+    color: rgb(224,240,241);
+    font-size: 100px;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec7 .right-div {
+    margin-bottom: 130px;
+    margin-top: 190px
+}
+
+.sec7 div h1 {
+    font-size: 55px;
+}
+
+.sec7 div h3 {
+    font-size: 20px;
+    color: rgb(232,232,233);
+}
+
+.sec7 div p {
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+#big {
+    
+    width: 560px;
+    height: 310px;
+    margin-top: 150px;
+}
+
+#small {
+    width: 510px;
+    height: 305px;
+    margin-top: 180px;
+}
+/* end 7th section*/
+
+
+
+/* start 8th section*/
+.sec8 {
+    height: 360px;
+    position: relative;
+}
+
+.sec8 .img img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 360px;
+    object-fit: cover;
+    object-position: 25% 50%
+}
+
+.sec8 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16,17,16);
+    opacity: .5;
+}
+
+.sec8 .our-team {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.sec8 .our-team h1 {
+    font-size: 50px;
+    color: rgb(249,249,249);
+}
+/* end 8th section*/
+
+
+
+/* start 9th section*/
+.sec9 {
+    height: 760px;
+    position: relative;
+}
+
+.sec9 .img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec9 .img img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 760px;
+    object-fit: cover;
+    object-position: 25% 50%
+}
+
+.sec9 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16,17,16);
+    opacity: .5;
+}
+
+.section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+
+.section .main-div {
+    width: 550px;
+    height: 280px;
+    margin: 20px 10px;
+    background-color: rgb(21,20,20);
+}
+
+.section .main-div .flex {
+    margin-top: 10px;
+    margin-left: 50%;
+    color: beige;
+    position: relative;
+}
+
+.flex .team {
+    position: absolute;
+    right: 100%;
+    top: -12%;
+    transform: translate(-50% -50%);
+}
+
+.section .flex h5{
+    font-size: 14px;
+    color: rgb(93,210,185);
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.section .main-div .flex .icons {
+    margin-top: 40px;
+}
+
+.section .main-div .flex .icons i{
+    color: rgb(93,210,185);
+    margin: 8px;
+}
+
+.section .main-div img {
+    width: 260px;
+    height: 220px;
+    filter: grayscale(100%);
+    transition: all ease;
+}
+
+.section .main-div img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+/* end 9th section*/
+
+
+
+/* start 10th section*/
+.sec10 {
+    background-color: rgb(1,1,0);
+    padding: 100px;
+    color: bisque;
+}
+
+.sec10 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.sec10 h1 {
+    font-size: 55px;
+}
+
+.sec10 h2 {
+    color: rgb(93,210,185);
+}
+
+.sec10 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec10 div img {
+    transition: all 2s;
+    width: 370px;
+    height: 362px;
+    margin: 5px;
+    object-fit: cover;
+    object-position: 50% 50%
+}
+
+.sec10 div img:hover {
+    filter: grayscale(50%);
+    transform:scale(1.1)
+}
+/* end 10th section*/
+
+
+
+/* start 11th section*/
+.sec11 {
+    position: relative;
+}
+
+.sec11 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18, 18, 18);
+    opacity: .5;
+}
+
+.sec11 .img img{
+    display: block;
+    width: 100%;
+    height: 545px;
+    object-fit: cover;
+    object-position: 40% 50%
+
+}
+
+.sec11 .two {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin:120px 200px;
+}
+
+.sec11 .two h1{
+    color: rgb(249,249,249);
+    font-size: 56px;
+}
+
+.sec11 .two h4 {
+    font-size: 18px;
+}
+
+.sec11 .two button {
+    color: white;
+    background-color: rgb(93,210,185);
+    border: none;
+    font-size: 17px;
+    padding: 17px 20px;
+    margin-top: 50px;
+}
+
+.sec11 .two .shadow .adam {
+    display: flex;
+    align-items: center;
+    position: relative;
+} 
+
+.sec11 .two .adam i {
+    position: absolute;
+    font-size: 70px;
+    right: 20px;
+    top: 30px;
+    color: rgb(93,210,185);
+}
+
+.sec11 .two .shadow p {
+    margin: 10px 0px 40px;
+}
+
+.sec11 .two .shadow h3{
+    color: white;
+}
+
+.sec11 .two .shadow h6 {
+    font-size: small;
+    color: rgb(93,210,185);
+}
+.sec11 .two .shadow {
+    background-color: rgba(23, 23, 23, 0.888);
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.sec11 .two img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* end 11th section*/
+
+
+
+/* start 12th section*/
+.sec12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.sec12 .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 55px;
+
+
+}
+
+.sec12 .blog h1 {
+    color: rgb(249,249,249);
+    font-size: 55px;
+}
+
+.sec12 .three {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.sec12 .three div {
+    margin: 20px;
+}
+
+.sec12 .three div h1{
+    color: rgb(93,210,185);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sec12 .three div h3 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.sec12 .three div h3 .second{
+    margin-left: 20px;
+    padding: 1px;
+    border: 3px solid rgb(93,210,185);
+    font-size: small;
+    border-radius: 3px;
+}
+
+.sec12 .three div i {
+    color: rgb(93,210,185);
+    font-size: large;
+    margin-right: 5px;
+}
+
+.sec12 .three div img {
+    width: 335px;
+    height: 220px;
+}
+/* end 12th section*/
+
+
+
+/* start 13th section*/
+.sec13 {
+    position: relative;
+    height: 750px;
+    background-color: rgb(30,25,26);
+}
+
+.sec13 .img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(29, 61, 54, 0.781), black, black );
+    opacity: .98;
+    
+}
+
+.sec13 .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec13 .img img {
+    display: block;
+    width: 100%;
+    height: 750px;
+}
+
+.sec13 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 5% 12%;
+    height: 600px;
+
+}
+
+.sec13 .main div h1 {
+    font-size: 55px;
+    color: rgb(249,249,249);
+}
+
+.sec13 .main div h2 {
+    font-size: 25px;
+    color: rgb(249,249,249);
+    margin-bottom: 5px;
+}
+
+.sec13 .main div h5 {
+    text-indent: 60px;
+    color: rgb(93,210,185);
+    font: 1em sans-serif;
+    margin-bottom: 10px;
+}
+
+.sec13 .main div i {
+    font-size: 40px;
+    color: rgb(93,210,185);
+    margin-right: 20px;
+}
+
+.sec13 .main .information {
+    border: 2px solid rgb(92,211,184);
+    width: 570px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sec13 .information textarea {
+    width: 535px;
+    height: 155px;
+    resize: none; 
+    background-image: linear-gradient(to right, rgb(18,18,19), transparent);
+    background-color: rgba(18, 18, 19, 0.855);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.sec13 .main .information input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgb(93,210,185);
+    background-image: linear-gradient(to right, rgb(18,18,19), transparent);
+    background-color: rgba(18, 18, 19, 0.855);
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.sec13 .information label {
+    color: rgb(93,210,185);
+    font-size: medium;
+}
+
+.information button {
+    color: white;
+    background-color: rgb(93,210,185);
+    width: 94%;
+    height: 60px;
+    border: none;
+    margin-bottom: 80px;
+    font-size: medium;
+    font-weight: bold;
+}
+/* end 13th section*/
+
+
+/*start footer*/
+footer {
+    height: 650px;
+    background-image: radial-gradient(rgb(27, 50, 45), black);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/*start bottom nav bar*/
+
+#bottom .up {
+    margin:100px;
+} 
+
+#bottom .up h1 {
+    font-size: 55px;
+    color: rgb(93,210,185);
+}
+
+#bottom .up h6 {
+    color: rgb(219,218,219);
+}
+
+#bottom p {
+    color: rgb(219,218,219);
+}
+
+#bottom .down {
+    margin-bottom: 60px;
+}
+
+#bottom a {
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 15px;
+    color: rgb(93,210,185);
+}
+
+#bottom a:hover{
+    color: white;
+}
+
+footer div {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+footer i {
+    margin: 1rem;
+    font-size: 25px;
+    color: rgb(93,210,185);
+}
+
+#Copyright {
+    font-size: 16px;
+    color: rgb(146,147,147);
+}
+/*endd bottom  bar*/
+
+/*end footer*/
+
+
+/*general format*/
+hr {
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: rgb(93,210,185);
+    margin: 20px 0px;
+}
+
+h4{
+    color: rgb(90,207,180);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+p{
+    color:rgb(146,147,147);
+}
+
+span{
+    color: rgb(93,210,185);
+}
